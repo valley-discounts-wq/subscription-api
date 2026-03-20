@@ -1,0 +1,22 @@
+{
+  "name": "scene-subscription-api",
+  "version": "1.0.0",
+  "description": "Scene Marketplace Subscription System API",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node api/index.js",
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["subscription", "marketplace", "stripe", "google-sheets"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "stripe": "^13.10.0",
+    "google-auth-library": "^9.2.0",
+    "googleapis": "^118.0.0"
+  }
+}
