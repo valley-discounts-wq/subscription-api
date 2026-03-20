@@ -1,0 +1,1 @@
+{\n  "functions": {\n    "api/**/*.js": {\n      "runtime": "nodejs18.x"\n    }\n  },\n  "env": {\n    "NODE_ENV": "production"\n  }\n}
